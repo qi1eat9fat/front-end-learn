@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+    <style>
+        h1.hidden {
+            visibility: hidden;
+        }
+
+        h1.none {
+            display: none;
+        }
+
+        li {
+            display: inline;
+        }
+
+        span {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>这是一个可见标题</h1>
+    <h1 class="hidden">这是一个隐藏标题</h1>
+    <p>注意, 实例中的隐藏标题仍然占用空间。</p>
+    <h1>这是一个可见标题</h1>
+    <h1 class="none">这是一个隐藏标题</h1>
+    <p>注意, 实例中的隐藏标题不占用空间。</p>
+
+    <h1>把块元素转为内联元素, 并设置 display: inline; 即可实现.</h1>
+    <ul>
+        <li><a href="/html/" target="_blank">HTML</a></li>
+        <li><a href="/css/" target="_blank">CSS</a></li>
+        <li><a href="/js/" target="_blank">JavaScript</a></li>
+        <li><a href="/xml/" target="_blank">XML</a></li>
+    </ul>
+
+    <h1>把内联元素转为块元素, 并设置 display: block; 即可实现.</h1>
+    <h2>Nirvana</h2>
+    <span>Record: MTV Unplugged in New York</span>
+    <span>Year: 1993</span>
+    <h2>Radiohead</h2>
+    <span>Record: OK Computer</span>
+    <span>Year: 1997</span>
+</body>
+
+</html>
